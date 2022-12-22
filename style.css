@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header nav .nav-right-section{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+header nav .nav-right-section li{
+    margin-right: 1rem;
+}
+
+header nav .nav-right-section a{
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+
+}
+
+header nav .nav-right-section .menu-icon{
+    background: url('https://cdn-icons-png.flaticon.com/128/17/17704.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+header nav .nav-right-section .image-profile img{
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+/* Main container */
+.container{
+    text-align: center;
+}
+.container .img-logo{
+    width: 50.3rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.container .img-logo img{
+    width: 45rem;
+}
+
+.container .main-input{
+    width: 50.3rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .main-input .main-input-container{
+    border: 1px solid #dfe1e5;
+    border-radius: 10rem;
+    width: 50.3rem;
+    height: 4rem;
+}
+
+.container .main-input .main-input-container input{
+    width: 40rem;
+    height: 3.8rem;
+    border: none;
+    outline: none;
+}
+
+.main-input-container:hover{
+    box-shadow: 0 0.1rem 0.6rem  #d1d2d4;
+    border-color: #5c5c5c;
+}
+
+.main-input-container .search-icon{
+    background: url('https://icones.pro/wp-content/uploads/2021/06/icone-loupe-gris.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    background: red;
+}
+
+.main-input-container .micro-icon{
+    background: url('https://w7.pngwing.com/pngs/974/464/png-transparent-google-voice-search-logo-google-voice-search-web-search-engine-google-now-google-microphone-search-engine-optimization-logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2rem;
+    height: 2rem;
+}
